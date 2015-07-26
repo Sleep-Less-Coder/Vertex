@@ -8,19 +8,20 @@ Vertex is a simple responsive HTML5/CSS3 template. Some of the features are:
 - Background slider
 - 400+ FontAwesome vector icons
 - Google map and fonts
+- SASS / Modular styles
 - and much more
 
 ##Screenshot
 ![](screenshot.png?raw=true "Screenshot")
 
-##Shout-outs
+##Credits
 A sincere thanks to the creators of these projects.
-FontAwesome
-Bootstrap
-SASS/Bourbon
-Backstretch.js
-Flexslider.js
-Shuffle.js
-Pushy.js
-scrollReveal.js
-Unsplash, Pixabay and UIFaces for the images.
+- FontAwesome
+- Bootstrap
+- SASS/Bourbon
+- Backstretch.js
+- Flexslider.js
+- Shuffle.js
+- Pushy.js
+- scrollReveal.js
+- Unsplash, Pixabay and UIFaces for the images.
