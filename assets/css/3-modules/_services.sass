@@ -1,0 +1,58 @@
+.services
+	margin-top: 100px
+	
+	h2
+		@extend %heading
+
+		.border
+			@extend %border
+
+	.services-desc
+		@extend %section-description
+
+	.single-service
+		background-color: $superLightGray
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+		border-radius: 3px 
+		margin: 0 10px 80px 10px
+
+		.service-icon
+			height: 100%
+			background-color: $accentColor
+			font-size: 5em
+			color: #fff
+			border-radius: 3px 0 0 3px 
+
+		.service-desc
+			height: 100%
+			padding: 30px
+			
+			div
+				h3
+					@extend %small-caps
+					color: $darkGray
+					margin-top: 0
+
+				p 
+					font-size: 18px
+
+	//media queries 
+	//desktop
+	@media (min-width: 992px)
+		.single-service
+			height: 350px
+
+		.service-icon span, .service-desc div
+			position: relative
+			top: 50%
+			left: 50%
+			+transform(translate(-50%, -50%))
+	
+	//mobile
+	@media (max-width: 992px)
+		.single-service
+			text-align: center
+
+			.service-icon
+				padding: 20px
+				border-radius: 3px 3px 0 0

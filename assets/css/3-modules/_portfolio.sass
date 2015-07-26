@@ -1,0 +1,64 @@
+.portfolio
+	margin-top: 100px
+	
+	h2
+		@extend %heading
+	
+	.border
+		@extend %border
+
+	.portfolio-desc
+		@extend %section-description
+
+	.projects-container #filter
+		display: block
+		list-style-type: none
+		margin: 0 0 20px 0
+		padding: 0
+
+		li 
+			display: inline-block
+			margin-right: 20px
+			margin-bottom: 5px
+			text-transform: uppercase
+
+			a
+				color: #000
+				opacity: 0.5
+				text-decoration: none
+				font-weight: bold
+				
+				&:hover
+					opacity: 1
+					
+				&.active
+					opacity: 1
+					color: $accentColor
+					border: 1px solid $accentColor
+					padding: 3px 5px
+					border-radius: 3px
+	
+	#grid
+		figure
+			z-index: 1
+			box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+			margin: 0 25px 25px 3px
+			border-radius: 0 0 3px 3px
+
+			&:last-child
+				margin-right: 0
+
+			img
+				border-radius: 3px 3px 0 0
+
+		figcaption
+			height: 145px
+			width: 260px
+			padding: 10px
+			background-color: #f6f6f6
+			border-radius: 0 0 3px 3px
+
+			.picture-item-title
+				margin-bottom: 5px
+				font-weight: bold
+

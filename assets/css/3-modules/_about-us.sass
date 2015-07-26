@@ -1,0 +1,49 @@
+.about
+	background-color: #fff
+	margin-top: 100px
+
+	img 
+		max-height: 300px
+		border-radius: 3px
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+		
+	.about-desc
+		.about-title
+			font-size: 34px
+			text-transform: uppercase
+			color: $primaryTextColor
+			font-weight: 300
+
+			.border
+				@extend %border
+
+		.about-explain
+			color: $secondaryTextColor
+			font-size: 18px
+
+		ul
+			list-style-type: none
+			padding: 0
+
+		ul li 
+			.list-title
+				font-size: 18px
+
+			.fa
+				margin-right: 10px
+
+		.btn-browse-work
+			margin-top: 30px
+			background-color: $accentColor
+			color: #fff
+			border: 0
+			border-radius: 3px
+			padding: 10px 20px 10px 20px
+			text-transform: uppercase
+			+transition(0.6s)
+
+			&:hover
+				background-color: darken($accentColor, 10%)
+
+			i
+				margin-right: 10px

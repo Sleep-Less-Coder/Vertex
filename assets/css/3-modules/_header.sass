@@ -1,0 +1,61 @@
+.header
+	.backdrop
+		@extend %backdrop
+			
+	.logo	
+		width: 35px
+		margin-top: 50px
+
+	.menu-btn
+		font-size: 24px
+		color: #fff
+		margin-top: 40px
+		
+	.menu-btn
+		cursor: pointer
+
+	h2
+		font-size: 44px
+		text-transform: uppercase
+		color: $secondaryTextColor
+
+		span 
+			color: $primaryColor
+
+	.intro
+		text-align: center
+		margin: 160px 0 160px 0
+
+		h2
+			margin-bottom: 8px
+
+	.tagline
+		font-size: 20px
+		color: #fff
+
+	.down-arrow
+		font-size: 3em
+		cursor: pointer
+		color: fade-out($superLightGray, 0.5)
+		padding-bottom: 90px
+		text-align: center
+	
+	.pushy ul li i 
+		margin-right: 8px 
+		
+	@media screen and (max-width: 750px)
+		.logo
+			margin-left: 20px
+
+		.menu-btn 
+			padding-right: 20px
+
+		.intro
+			margin-top: 100px
+
+		.tagline
+			margin-top: 20px
+			font-size: 15px
+
+		.intro
+			margin-bottom: 100px
